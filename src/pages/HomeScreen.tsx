@@ -16,14 +16,9 @@ function Formulario() {
 
   const [selectedGender, setselectedGender] = useState();
 
-  const image = {uri: 'https://i.pinimg.com/1200x/34/5c/e9/345ce9643b58e6ad8c3f45d5258d9f9d.jpg'};
-
-  
-
   return (
 
     <View>
-      <ImageBackground source={image} resizeMode="cover" style={styles.image}/>
       <Text style={styles.message}> Bem vindo(a) !</Text>
       <TextInput style={styles.nome}
       placeholder='Nome'
